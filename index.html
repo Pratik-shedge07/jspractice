@@ -4,38 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Greeting Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #1e1e1e;
-            color: #fff;
-            text-align: center;
-            padding: 50px;
-        }
-        h1 {
-            font-size: 3rem;
-            color: #4caf50;
-        }
-        #greeting {
-            font-size: 2rem;
-            margin-top: 20px;
-            color: #ffeb3b;
-        }
-    </style>
+
 </head>
 <body>
-    <h1 id="head">Hello</h1>
-    <p id="greeting"></p>
-
-    <script>
-        const name = prompt("Enter your name:");
-        const greetingElement = document.getElementById("greeting");
-
-        if (name) {
-            greetingElement.textContent = `Welcome, ${name}!`;
-        } else {
-            greetingElement.textContent = "Welcome, Guest!";
+<style>
+    .container-card {
+        background-color: #F8F4E1;
+        padding: 20px;
+        width: 300px; /* Slightly increased width for better spacing */
+        max-width: 100%; /* Ensures responsiveness */
+        text-align: center;
+        border-radius: 20px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: 2px solid #efeaea;
+        margin: 20px auto; /* Centers dynamically */
+    }
+    
+    .flyer {
+        background: #E8D8C4;
+        color: #190e0d;
+        text-align: center;
+        padding: 20px;
+        border-radius: 15px;
+        width: 100%; /* Adjust to fit container */
+        font-family: 'Poppins', sans-serif;
+        border: 2px solid #190e0d;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Hover Effect */
+    .container-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    }
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .container-card {
+            width: 90%;
+            padding: 15px;
         }
-    </script>
+        .flyer {
+            padding: 15px;
+        }
+    }
+    
+</style>
+<div class="container-card">
+    <div class="flyer">
+        <h1>We are <br> <span class="highlight">open!</span></h1>
+        <p>Monday - Friday<br>7 AM - 9 PM</p>
+        <p>Saturday & Sunday<br>9 AM - 11 PM</p><br>
+        <a href="tel:+919373741099" class="number">+91-9373741099</a>
+        <a href="mailto:chavanshreya654@gmail.com" class="email">chavanshreya654@gmail.com</a><br>
+        <p>Vallabh Nagar, Pimpri, Pune.</p>
+    </div>
+</div>
+
 </body>
 </html>
