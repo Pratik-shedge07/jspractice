@@ -4,60 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Greeting Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #F3ECEA;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
 
+        .container-card {
+            background-color: #F8F4E1;
+            padding: 25px;
+            width: 320px;
+            max-width: 100%;
+            text-align: center;
+            border-radius: 20px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 2px solid #E5D9C8;
+        }
+
+        .flyer {
+            background: #E8D8C4;
+            color: #190e0d;
+            text-align: center;
+            padding: 20px;
+            border-radius: 15px;
+            border: 2px solid #190e0d;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .flyer h1 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .highlight {
+            color: #D35400;
+            font-weight: 700;
+        }
+
+        .flyer p {
+            font-size: 1rem;
+            margin: 5px 0;
+            font-weight: 400;
+        }
+
+        .number, .email {
+            display: block;
+            margin: 8px 0;
+            font-size: 1rem;
+            text-decoration: none;
+            color: #D35400;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .number:hover, .email:hover {
+            color: #B03A2E;
+        }
+
+        .container-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        @media (max-width: 768px) {
+            body {
+                height: auto;
+                padding: 20px;
+            }
+            .container-card {
+                width: 90%;
+                padding: 20px;
+            }
+            .flyer {
+                padding: 15px;
+            }
+        }
+    </style>
 </head>
 <body>
-<style>
-    .container-card {
-        background-color: #F8F4E1;
-        padding: 20px;
-        width: 300px; /* Slightly increased width for better spacing */
-        max-width: 100%; /* Ensures responsiveness */
-        text-align: center;
-        border-radius: 20px;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        border: 2px solid #efeaea;
-        margin: 20px auto; /* Centers dynamically */
-    }
-    
-    .flyer {
-        background: #E8D8C4;
-        color: #190e0d;
-        text-align: center;
-        padding: 20px;
-        border-radius: 15px;
-        width: 100%; /* Adjust to fit container */
-        font-family: 'Poppins', sans-serif;
-        border: 2px solid #190e0d;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    }
-    
-    /* Hover Effect */
-    .container-card:hover {
-        transform: scale(1.05);
-        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
-    }
-    
-    @media (max-width: 768px) {
-        .container-card {
-            width: 90%;
-            padding: 15px;
-        }
-        .flyer {
-            padding: 15px;
-        }
-    }
-    
-</style>
+
 <div class="container-card">
     <div class="flyer">
-        <h1>We are <br> <span class="highlight">open!</span></h1>
-        <p>Monday - Friday<br>7 AM - 9 PM</p>
-        <p>Saturday & Sunday<br>9 AM - 11 PM</p><br>
-        <a href="tel:+919373741099" class="number">+91-9373741099</a>
-        <a href="mailto:chavanshreya654@gmail.com" class="email">chavanshreya654@gmail.com</a><br>
-        <p>Vallabh Nagar, Pimpri, Pune.</p>
+        <h1>We are <br> <span class="highlight">Open!</span></h1>
+        <p><strong>Monday - Friday</strong><br>7 AM - 9 PM</p>
+        <p><strong>Saturday & Sunday</strong><br>9 AM - 11 PM</p><br>
+        <a href="tel:+919373741099" class="number">📞 +91-9373741099</a>
+        <a href="mailto:chavanshreya654@gmail.com" class="email">📧 chavanshreya654@gmail.com</a><br>
+        <p>📍 Vallabh Nagar, Pimpri, Pune.</p>
     </div>
 </div>
 
