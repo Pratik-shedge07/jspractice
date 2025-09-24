@@ -15,16 +15,28 @@
 //     }
 //  }
  
+// public class Main {
+//    public static void main (String args[]){
+//        int a =153;
+//        int b =20;
+//        int c ;
+//        System.out.println("sum :"+(a+b));
+//        System.out.println ("subtraction :" +(a-b));
+//        System.out.println("Multiplication :" +(a*b));
+//        System.out.println("Division :" +(a/b)); 
+//       System.out.println("Modolus :" +(a%b));
+//    }
+// }
+
 public class Main {
-   public static void main (String args[]){
-       int a =153;
-       int b =20;
-       int c ;
-       System.out.println("sum :"+(a+b));
-       System.out.println ("subtraction :" +(a-b));
-       System.out.println("Multiplication :" +(a*b));
-       System.out.println("Division :" +(a/b)); 
-      System.out.println("Modolus :" +(a%b));
+   public static void main (String args []){
+      int a= 10;
+      int b= 20;
+      System.out.println(++a);   // pre increment
+      System.out.println(a++);   // post increment
+      System.out.println(a);
+      System.out.println(--b);   // pre decrement
+      System.out.println(b--);   // post decrement 
+      System.out.println(b);
    }
 }
-  
