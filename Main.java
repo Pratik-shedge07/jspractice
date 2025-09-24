@@ -1,4 +1,5 @@
- import java.util.*;
+ import java.lang.classfile.instruction.SwitchCase;
+import java.util.*;
 
 //******************************************************array 2d************************************* */
 // public class Main {
@@ -108,28 +109,60 @@
 //          }
 //     }
 // }
- public class Main {
+//  public class Main {
+//     public static void main(String[] args) {
+//         int nbprice = 70;
+//         int penprice= 80;
+//         int cusbalance ;
+//         Scanner sc =new Scanner(System.in);
+//         System.out.println("what is the balance you have : ");
+//         cusbalance =sc.nextInt();
+
+//         if(cusbalance>=nbprice+penprice){
+//          System.out.println("yes you can buy both");    
+//         }
+
+//         else if (cusbalance >= nbprice) {
+//             System.out.println("you can buy notebook");
+//         }
+
+//         else if(cusbalance>= penprice){
+//             System.out.println("yes you can buy pen");
+//         }
+
+//         else{
+//             System.out.println("you cannot buy");
+//         }
+//     }
+//  }
+//*********************************************switch condition************************* */
+public class Main{
     public static void main(String[] args) {
-        int nbprice = 70;
-        int penprice= 80;
-        int cusbalance ;
-        Scanner sc =new Scanner(System.in);
-        System.out.println("what is the balance you have : ");
-        cusbalance =sc.nextInt();
 
-        if(cusbalance>=nbprice+penprice){
-         System.out.println("yes you can buy both");    
-        }
-        else if (cusbalance >= nbprice) {
-            System.out.println("you can buy notebook");
-        }
-        else if(cusbalance>= penprice){
-            System.out.println("yes you can buy pen");
+        int day;
+        Scanner sc = new Scanner (System.in);
 
-        }
-         
-        else{
-            System.out.println("you cannot buy");
+        System.out.println("Enter your day : ");
+        day =sc.nextInt();
+        switch (day){
+            case 1 :
+            System.out.println(" monday");
+            break; // break the flow of the statement or the program
+
+            case 2:
+            System.out.println("Tuesday");
+            break;
+
+            case 3 :
+            System.out.println("wednesday");
+            break;
+
+            case 4 :
+            System.out.println("thursady");
+            break;
+
+            default:
+            System.out.println(" friday- sunday");
         }
     }
- }
+}
