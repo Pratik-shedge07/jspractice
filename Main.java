@@ -108,3 +108,28 @@
 //          }
 //     }
 // }
+ public class Main {
+    public static void main(String[] args) {
+        int nbprice = 70;
+        int penprice= 80;
+        int cusbalance ;
+        Scanner sc =new Scanner(System.in);
+        System.out.println("what is the balance you have : ");
+        cusbalance =sc.nextInt();
+
+        if(cusbalance>=nbprice+penprice){
+         System.out.println("yes you can buy both");    
+        }
+        else if (cusbalance >= nbprice) {
+            System.out.println("you can buy notebook");
+        }
+        else if(cusbalance>= penprice){
+            System.out.println("yes you can buy pen");
+
+        }
+         
+        else{
+            System.out.println("you cannot buy");
+        }
+    }
+ }
