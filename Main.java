@@ -15,7 +15,7 @@
 //       System.out.println(p);
 //     }
 //  }
- //**************************************************Operation Operators***************************** */
+//**************************************************Operation Operators***************************** */
 // public class Main {
 //    public static void main (String args[]){
 //        int a =153;
@@ -39,5 +39,15 @@
 //       System.out.println(--b);   // pre decrement
 //       System.out.println(b--);   // post decrement 
 //       System.out.println(b);
+//    }
+// }
+//*******************************************************maths Class***************************** */
+// public class Main{
+//    public static void main(String args[]){
+//       System.out.println ( "maximum value : "+Math.max(10,20)); //find the maximum number
+//       System.out.println ("minumum value : "+Math.min(10,20)); //find the minimum number
+//       System.out.println( "random value : "+Math.random()); // gives the random number between 0.0-1.0
+//       System.out.println( "random value multiplied by 100 : "+Math.random()*100); // gives the random number between 0.0-100.0 because we multiply it by 100
+//       System.out.println( "Random value multiplied by 100 and concated the in type : "+(int)Math.random()*100); // gives the random number between 0-100 because we type cast it to int
 //    }
 // }
