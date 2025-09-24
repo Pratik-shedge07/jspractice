@@ -1,3 +1,4 @@
+//******************************************************array 2d************************************* */
 // import java.util.*;
 // public class Main {
 //     public static void main(String[] args) {
@@ -5,7 +6,7 @@
 //          System.out.println( finalmarks[1][0]);
 //     }
 // }
-
+//*********************************************Casting******************************************** */
 //  public class Main {
 //     public static void main(String[] args) {
 //       int p=10;
@@ -14,7 +15,7 @@
 //       System.out.println(p);
 //     }
 //  }
- 
+ //**************************************************Operation Operators***************************** */
 // public class Main {
 //    public static void main (String args[]){
 //        int a =153;
@@ -27,16 +28,16 @@
 //       System.out.println("Modolus :" +(a%b));
 //    }
 // }
-
-public class Main {
-   public static void main (String args []){
-      int a= 10;
-      int b= 20;
-      System.out.println(++a);   // pre increment
-      System.out.println(a++);   // post increment
-      System.out.println(a);
-      System.out.println(--b);   // pre decrement
-      System.out.println(b--);   // post decrement 
-      System.out.println(b);
-   }
-}
+//*******************************************************increment and decrement***************************** */
+// public class Main {
+//    public static void main (String args []){
+//       int a= 10;
+//       int b= 20;
+//       System.out.println(++a);   // pre increment
+//       System.out.println(a++);   // post increment
+//       System.out.println(a);
+//       System.out.println(--b);   // pre decrement
+//       System.out.println(b--);   // post decrement 
+//       System.out.println(b);
+//    }
+// }
