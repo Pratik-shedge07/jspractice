@@ -1,5 +1,6 @@
+ import java.util.*;
+
 //******************************************************array 2d************************************* */
-// import java.util.*;
 // public class Main {
 //     public static void main(String[] args) {
 //         int [][] finalmarks = {{22, 98,65},{55,33,87}};
@@ -49,5 +50,24 @@
 //       System.out.println( "random value : "+Math.random()); // gives the random number between 0.0-1.0
 //       System.out.println( "random value multiplied by 100 : "+Math.random()*100); // gives the random number between 0.0-100.0 because we multiply it by 100
 //       System.out.println( "Random value multiplied by 100 and concated the in type : "+(int)Math.random()*100); // gives the random number between 0-100 because we type cast it to int
+//    }
+// }
+//*******************************************************Scanner Function***************************** */
+// public class  Main{
+//    public static void main(String args[]){
+      
+//       Scanner sc=new Scanner (System.in);
+
+//       // System.out.println("Enter your age : ");
+//       // int age =sc.nextInt(); //take the int type of input function
+//       // System.out.println("Your age is : "+age);
+
+//       // System.out.println("Enter your Name  : ");
+//       // String name = sc.next(); //take the single  string type of input function
+//       // System.out.println("Your name is : "+name);
+
+//       System.out.println("Enter your address : ");
+//       String address =sc.nextLine(); //take the multiple string type of input function
+//       System.out.println("Your address is : "+address);
 //    }
 // }
