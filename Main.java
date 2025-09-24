@@ -71,3 +71,40 @@
 //       System.out.println("Your address is : "+address);
 //    }
 // }
+//***********************************************Conditional Statements***************************** */
+// public class Main {
+//     public static void main (String args[]){
+//         int age =19;
+//         int height = 7;
+
+//         if( age>18 ){ // singe condition is used 
+//             System.out.println("you can vote");
+//         }
+//         else{
+//             System.out.println("you cannot vote");
+//         }
+
+
+//          if(age >18 && height>6){ //multi condition is used using "&&" operator
+//             System.out.println("You are tall enough");
+//          }
+//          else{
+//             System.out.println("You are short");
+//          }
+
+         
+//          if( age > 18 || height>6){ //any of the condition is correct it will execute the if condition bcz we use OR "||" operator
+//             System.out.println("youu can do any thing");
+//          }
+//          else{
+//             System.out.println("You are not eligible");
+//          }
+//          boolean isadult = true;
+//          if( isadult=true ){ // boolen expression is used
+//             System.out.println(" its adult");
+//          }
+//          else{
+//             System.out.println("its not adult");
+//          }
+//     }
+// }
