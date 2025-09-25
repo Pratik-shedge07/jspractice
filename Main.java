@@ -136,33 +136,52 @@ import java.util.*;
 //     }
 //  }
 //*********************************************switch condition************************* */
+// public class Main{
+//     public static void main(String[] args) {
+
+//         int day;
+//         Scanner sc = new Scanner (System.in);
+
+//         System.out.println("Enter your day : ");
+//         day =sc.nextInt();
+//         switch (day){
+//             case 1 :
+//             System.out.println(" monday");
+//             break; // break the flow of the statement or the program
+
+//             case 2:
+//             System.out.println("Tuesday");
+//             break;
+
+//             case 3 :
+//             System.out.println("wednesday");
+//             break;
+
+//             case 4 :
+//             System.out.println("thursady");
+//             break;
+
+//             default:
+//             System.out.println(" friday- sunday");
+//         }
+//     }
+// }
+//***************************************************for loops****************************** */
 public class Main{
-    public static void main(String[] args) {
-
-        int day;
+    public static void main(String args[]){
         Scanner sc = new Scanner (System.in);
+        int count;
+         System.out.println("Enter the number of count");
+         count =sc.nextInt();
 
-        System.out.println("Enter your day : ");
-        day =sc.nextInt();
-        switch (day){
-            case 1 :
-            System.out.println(" monday");
-            break; // break the flow of the statement or the program
-
-            case 2:
-            System.out.println("Tuesday");
-            break;
-
-            case 3 :
-            System.out.println("wednesday");
-            break;
-
-            case 4 :
-            System.out.println("thursady");
-            break;
-
-            default:
-            System.out.println(" friday- sunday");
-        }
+        //  for( int age = 1;  age <=count; age++){
+        //     System.out.println(age);
+        //  }
+          int age =10;
+         while( age <=count){
+         
+            System.out.println(age);
+             age++;
+           } 
     }
 }
