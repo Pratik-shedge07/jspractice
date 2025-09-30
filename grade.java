@@ -54,54 +54,51 @@ import java.util.*;
 //     }
 // }
 
-public class grade {
-    public static void main(String args[]) {
+// public class grade {
+//     public static void main(String args[]) {
 
-        Scanner sc = new Scanner(System.in);
+//         Scanner sc = new Scanner(System.in);
         
 
-        System.out.println("Enter the marks of maths : ");
-        int sub1 =sc.nextInt();
+//         System.out.println("Enter the marks of maths : ");
+//         int sub1 =sc.nextInt();
 
-        System.out.println("Enter the marks of english : ");
-        int sub2 = sc.nextInt();
+//         System.out.println("Enter the marks of english : ");
+//         int sub2 = sc.nextInt();
 
-        System.out.println("Enter the marks of Social Science Studies : ");
-        int sub3 = sc.nextInt();
+//         System.out.println("Enter the marks of Social Science Studies : ");
+//         int sub3 = sc.nextInt();
 
-        System.out.println("Enter the marks of marathi : ");
-        int sub4 = sc.nextInt();
+//         System.out.println("Enter the marks of marathi : ");
+//         int sub4 = sc.nextInt();
 
-        System.out.println("Enter the marks of Hindi : ");
-        int sub5 = sc.nextInt();
+//         System.out.println("Enter the marks of Hindi : ");
+//         int sub5 = sc.nextInt();
 
-        int total =sub1+sub2+sub3+sub4+sub5;
+//         int total =sub1+sub2+sub3+sub4+sub5;
 
-        System.out.println("The total marks obtained by the student = "+total);
+//         System.out.println("The total marks obtained by the student = "+total);
 
-        int percentage = (total*100)/500;
+//         int percentage = (total*100)/500;
 
-        System.out.println( "The percentage obtained by the student is : "+ percentage+"%");
+//         System.out.println( "The percentage obtained by the student is : "+ percentage+"%");
 
-        if(percentage<=100 && percentage>=80){
-            System.out.println("grade A");
+//         if(percentage<=100 && percentage>=80){
+//             System.out.println("grade A");
 
-        }
-        else if( percentage<=80 && percentage>=60){
-            System.out.println("Grade B");
+//         }
+//         else if( percentage<=80 && percentage>=60){
+//             System.out.println("Grade B");
 
-        }
-        else if(percentage<=60 && percentage>=40){
-            System.out.println("Grade C");
-        }
-        else if (percentage<=40 && percentage>=35){
-            System.out.println("Grade D");
-        }
-        else{
-            System.out.println("fail !!!");
-        }
-
-
-
-    }
-}
+//         }
+//         else if(percentage<=60 && percentage>=40){
+//             System.out.println("Grade C");
+//         }
+//         else if (percentage<=40 && percentage>=35){
+//             System.out.println("Grade D");
+//         }
+//         else{
+//             System.out.println("fail !!!");
+//         }
+//     }
+// }
