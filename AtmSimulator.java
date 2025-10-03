@@ -58,7 +58,6 @@ import java.util.*;
 //     public static void main(String args[]) {
 
 //         Scanner sc = new Scanner(System.in);
-        
 
 //         System.out.println("Enter the marks of maths : ");
 //         int sub1 =sc.nextInt();
@@ -102,3 +101,58 @@ import java.util.*;
 //         }
 //     }
 // }
+public class AtmSimulator {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int pin = 1234;
+
+        int balance = 1000;
+        System.out.println("Enter you security pin = ");
+        int userpin = sc.nextInt();
+
+        if (pin == userpin) {
+            System.out.println("Correct pin");
+
+            System.out.println("Press 1 to check the balance");
+            System.out.println("Press 2 to withdraw the money");
+            System.out.println("Press 3 to deposit the money");
+            System.out.println("Press 4 to exit");
+        } else {
+            System.out.println("Worng pin");
+        }
+
+        int menu = sc.nextInt();
+        switch (menu) {
+            case 1:
+                System.out.println("Current balance =" + balance);
+                break;
+            case 2:
+                System.out.println("Enter the amount of the with drawl : ");
+                int withdraw = sc.nextInt();
+                if (withdraw > balance) {
+                    System.out.println("insufficent bank balance");
+                } else {
+                    System.out.println("money has been withdrawn succesfully");
+                }
+                System.out.println("your current balance = " + (balance - withdraw));
+
+                break;
+
+            case 3:
+                System.out.println("Enter the amount to be deposited : ");
+                int deposit = sc.nextInt();
+
+                System.out.println("you amount has been deposited");
+                System.out.println("your current balance = " + (deposit + balance));
+                break;
+
+            case 4:
+                System.out.println("Thanks for the transaction ");
+                break;
+
+            default:
+                System.out.println("Invalid choice ");
+        }
+
+    }
+}
