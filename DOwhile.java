@@ -167,21 +167,35 @@ import java.util.*;
 //     }
 // }
 //***************************************************for loops****************************** */
-public class Main{
-    public static void main(String args[]){
-        Scanner sc = new Scanner (System.in);
-        int count;
-         System.out.println("Enter the number of count");
-         count =sc.nextInt();
+// public class Main{
+//     public static void main(String args[]){
+//         Scanner sc = new Scanner (System.in);
+//         int count;
+//          System.out.println("Enter the number of count");
+//          count =sc.nextInt();
 
-        //  for( int age = 1;  age <=count; age++){
-        //     System.out.println(age);
-        //  }
-          int age =10;
-         while( age <=count){
+//         //  for( int age = 1;  age <=count; age++){
+//         //     System.out.println(age);
+//         //  }
+//           int age =10;
+//          while( age <=count){
          
-            System.out.println(age);
-             age++;
-           } 
+//             System.out.println(age);
+//              age++;
+//            } 
+//     }
+// }
+
+public class DOwhile{
+    public static void main(String args[]){
+        Scanner sc =new  Scanner(System.in);
+        int number;
+        do{
+            System.out.println("enter the number ");
+            number=sc.nextInt();
+            System.out.println( "the number you entered is = "+number);
+        }while(number>0);
+        System.out.println("the end");
+
     }
 }
