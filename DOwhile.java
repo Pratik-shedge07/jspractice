@@ -1,4 +1,4 @@
- import java.lang.classfile.instruction.SwitchCase;
+import java.lang.classfile.instruction.SwitchCase;
 import java.util.*;
 
 //******************************************************array 2d************************************* */
@@ -56,7 +56,7 @@ import java.util.*;
 //*******************************************************Scanner Function***************************** */
 // public class  Main{
 //    public static void main(String args[]){
-      
+
 //       Scanner sc=new Scanner (System.in);
 
 //       // System.out.println("Enter your age : ");
@@ -85,7 +85,6 @@ import java.util.*;
 //             System.out.println("you cannot vote");
 //         }
 
-
 //          if(age >18 && height>6){ //multi condition is used using "&&" operator
 //             System.out.println("You are tall enough");
 //          }
@@ -93,7 +92,6 @@ import java.util.*;
 //             System.out.println("You are short");
 //          }
 
-         
 //          if( age > 18 || height>6){ //any of the condition is correct it will execute the if condition bcz we use OR "||" operator
 //             System.out.println("youu can do any thing");
 //          }
@@ -179,23 +177,24 @@ import java.util.*;
 //         //  }
 //           int age =10;
 //          while( age <=count){
-         
+
 //             System.out.println(age);
 //              age++;
 //            } 
 //     }
 // }
 
-public class DOwhile{
-    public static void main(String args[]){
-        Scanner sc =new  Scanner(System.in);
-        int number;
-        do{
-            System.out.println("enter the number ");
-            number=sc.nextInt();
-            System.out.println( "the number you entered is = "+number);
-        }while(number>0);
-        System.out.println("the end");
+public class DOwhile {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int i=10;
+        while (true) {
+            System.out.println(i);
+            i = i -1;
+            if (i<=0) {
+                break;
 
+            }
+        }
     }
 }
