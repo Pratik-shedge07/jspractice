@@ -183,7 +183,7 @@ import java.util.*;
 //            } 
 //     }
 // }
-
+//**********************************exception handling *********************************** */
 // public class Main {
 //     public static void main(String args[]) {
 //         int[] marks = { 55, 55, 44, 44 };
@@ -194,4 +194,15 @@ import java.util.*;
 //         }
 //         System.out.println("hei");
 //     }
+// }
+//************************************************functions and method***************************** */
+// public class Main {
+//     public static void  mysum( int a, int b){  //// method
+//         int Sum =a+b;
+//         System.out.println(Sum);
+//     }
+//      public static void main(String[] args) {
+//         mysum(5,6);
+//         mysum(33,6);// calling the method
+//      }
 // }
