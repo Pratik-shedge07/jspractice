@@ -207,30 +207,30 @@ import java.util.*;
 //      }
 // }
 
-public class Main{
-    public static void main(String[] args) {
+// public class Main{
+//     public static void main(String[] args) {
 
-        Scanner sc =new Scanner(System.in);
+//         Scanner sc =new Scanner(System.in);
 
-        int myNumber= (int)(Math.random()*100);
-        int usernumber;
+//         int myNumber= (int)(Math.random()*100);
+//         int usernumber;
 
-        do{
-            System.out.println("guess the number : ");
-             usernumber=sc.nextInt();
+//         do{
+//             System.out.println("guess the number : ");
+//              usernumber=sc.nextInt();
 
-            if(usernumber==myNumber){
-                System.out.println("yess thats the correct number!!!");
-                break;
-            }
-            else if(usernumber>myNumber){
-                System.out.println("the number you entered is big");
-            }
-            else{
-                System.out.println("your number is short");
-            }
-        }while(usernumber>=0);
+//             if(usernumber==myNumber){
+//                 System.out.println("yess thats the correct number!!!");
+//                 break;
+//             }
+//             else if(usernumber>myNumber){
+//                 System.out.println("the number you entered is big");
+//             }
+//             else{
+//                 System.out.println("your number is short");
+//             }
+//         }while(usernumber>=0);
 
-        System.out.println("my number was : "+myNumber);
-    }
-}
+//         System.out.println("my number was : "+myNumber);
+//     }
+// }
