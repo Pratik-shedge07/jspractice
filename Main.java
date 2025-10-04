@@ -184,17 +184,14 @@ import java.util.*;
 //     }
 // }
 
-public class DOwhile {
-    public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
-        int i=10;
-        while (true) {
-            System.out.println(i);
-            i = i -1;
-            if (i<=0) {
-                break;
-
-            }
-        }
-    }
-}
+// public class Main {
+//     public static void main(String args[]) {
+//         int[] marks = { 55, 55, 44, 44 };
+//         try {
+//             System.out.println(marks[8]);
+//         } catch (Exception exception) {
+//             System.out.println("hello");
+//         }
+//         System.out.println("hei");
+//     }
+// }
