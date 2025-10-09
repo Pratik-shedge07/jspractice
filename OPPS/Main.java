@@ -71,3 +71,40 @@
 
 //     }
 // }
+
+// Create a class BankAccount with fields: accountNumber, balance.
+// Add a method deposit(int amount) which increases balance and prints new balance.
+// Add a method withdraw(int amount) which decreases balance and prints new balance.
+// In main(), create one account and test deposit & withdraw. *
+// import java.util.*;
+
+// class BankAcount{
+//     Scanner sc =new Scanner(System.in);
+//     int accountNumber;
+//     int balance=5000;
+
+//     void deposit(){
+//         System.out.println("Enter the amount to deposite = ");
+//         int amount=sc.nextInt();
+//         int ubalance=amount+balance;
+//         System.out.println("Your updated balance = "+ubalance);
+//     }
+//     void withDraw(){
+//         System.out.println("Enter the withdraw amount = ");
+//         int amount=sc.nextInt();
+//         int ubalance=balance-amount;
+//         System.out.println("you updated balance  = "+ubalance);
+//     }
+// }
+// public class Main{
+//     public static void main(String args[]){
+
+//         BankAcount account= new BankAcount();
+//         account.accountNumber=1002;
+//         account.deposit();
+
+//         BankAcount account2= new BankAcount();
+//         account2.accountNumber=100005;
+//         account2.withDraw();
+//     }
+// }
