@@ -108,3 +108,51 @@
 //         account2.withDraw();
 //     }
 // }
+
+// Library – Class Book inside Library class; addBook(), showAllBooks()
+import java.util.*;
+
+class Library {
+     ArrayList<String> bookNames = new ArrayList<>();
+    ArrayList<String> authorNames = new ArrayList<>();
+
+    Scanner sc = new Scanner(System.in);
+
+    void addBook() {
+        int n;
+
+        System.out.println("Add the number of books you want to add : ");
+        n = sc.nextInt();
+         sc.nextLine();
+         
+        if (n<=0) {
+            System.out.println("Invalid error");
+            return;
+         }
+
+        for(int i = 0; i<n;i++){
+
+        System.out.println("\nEnter the books to add : ");
+        String bookName = sc.nextLine();
+        
+        System.out.println("Enter the name of author  : ");
+        String authorName = sc.nextLine();
+        bookNames.add(bookName);
+        authorNames.add(authorName);
+         }   
+    }
+
+    void display() {
+        System.out.println(bookNames + " is the book that is newly added by the Person " + authorNames);
+    }
+}
+
+public class Main {
+    public static void main(String args[]) {
+        Library library = new Library();
+        library.addBook();
+        library.display();
+
+    }
+
+}
