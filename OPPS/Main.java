@@ -124,7 +124,7 @@
 //         System.out.println("Add the number of books you want to add : ");
 //         n = sc.nextInt();
 //          sc.nextLine();
-         
+
 //         if (n<=0) {
 //             System.out.println("Invalid error");
 //             return;
@@ -134,7 +134,7 @@
 
 //         System.out.println("\nEnter the books to add : ");
 //         String bookName = sc.nextLine();
-        
+
 //         System.out.println("Enter the name of author  : ");
 //         String authorName = sc.nextLine();
 //         bookNames.add(bookName);
@@ -154,5 +154,65 @@
 //         Library library = new Library();
 //         library.addBook();
 //         library.display();
+//     }
+// }
+
+// Goal: Create a program to store movies and their ratings.
+// Create a class MovieCollection
+// Fields: ArrayList<String> movieNames, ArrayList<Double> ratings
+// Methods:
+// addMovie() → take movie name and rating from user, add to lists
+// showMovies() → display all movies with ratings
+// import java.util.ArrayList;
+
+import java.util.*;
+
+// class MovieCollection {
+
+//     ArrayList<String> movieNames = new ArrayList<>();
+//     ArrayList<Double> ratings = new ArrayList<>();
+
+//     Scanner sc = new Scanner(System.in);
+
+//     void addModies() {
+
+//         System.out.println("\nEnter the number of movies you want to enter : ");
+//         int n = sc.nextInt();
+//         sc.nextLine();
+
+//         if (n < 0) {
+//             System.out.println("Enter the valid number !!");
+//             return;
+//         }
+
+//         for (int i = 0; i <n; i++) {
+
+//             System.out.println("Enter the movie name : ");
+//             String moviename = sc.nextLine();
+
+//             System.out.println("Enter the IMDB rating out of 10 : ");
+//             double rating = sc.nextDouble();
+//             sc.nextLine();
+
+//             movieNames.add(moviename);
+//             ratings.add(rating);
+//         }
+
+//     }
+
+//     void showMovies() {
+//         for(int i =0 ;i<movieNames.size();i++)
+//         {
+//         System.out.println(movieNames.get(i) + " are the movies with the rating of " + ratings.get(i));
+// }
+//     }
+// }
+
+// public class Main {
+//     public static void main(String args[]) {
+//         MovieCollection mc =new MovieCollection();
+//         mc.addModies();
+//         mc.showMovies();
+
 //     }
 // }
