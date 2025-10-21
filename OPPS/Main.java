@@ -220,49 +220,49 @@ import java.util.*;
 // storing them in ArrayLists,
 // and then displaying all employees.
 
-class Employee{
+// class Employee{
 
-    ArrayList<Integer> empIds = new ArrayList<>();
-    ArrayList<String> empNames = new ArrayList<>();
-    ArrayList<Integer> empsalarys = new ArrayList<>();
+//     ArrayList<Integer> empIds = new ArrayList<>();
+//     ArrayList<String> empNames = new ArrayList<>();
+//     ArrayList<Integer> empsalarys = new ArrayList<>();
 
-    Scanner sc =new Scanner(System.in);
+//     Scanner sc =new Scanner(System.in);
 
-    void empDetails(){
-        System.out.println("Enter the number of Employee details to add : ");
-        int n =sc.nextInt();
-        sc.nextLine();
+//     void empDetails(){
+//         System.out.println("Enter the number of Employee details to add : ");
+//         int n =sc.nextInt();
+//         sc.nextLine();
 
-        if(n<0){
-            System.out.println("Invalid !! enter the valid number ");
-            return;
-        }
-        for (int i =0 ; i<n; i++){
-            System.out.println("Enter the employee id : ");
-            int empId = sc.nextInt();
-            sc.nextLine();
-            System.out.println("Enter the Employee name : ");
-            String empname = sc.nextLine();
-            System.out.println ("Enter the Employee Salary : ");
-            int empSalary = sc.nextInt();
+//         if(n<0){
+//             System.out.println("Invalid !! enter the valid number ");
+//             return;
+//         }
+//         for (int i =0 ; i<n; i++){
+//             System.out.println("Enter the employee id : ");
+//             int empId = sc.nextInt();
+//             sc.nextLine();
+//             System.out.println("Enter the Employee name : ");
+//             String empname = sc.nextLine();
+//             System.out.println ("Enter the Employee Salary : ");
+//             int empSalary = sc.nextInt();
 
-            empIds.add(empId);
-            empsalarys.add(empSalary);
-            empNames.add(empname);
-        }
-    }
-    void display(){
-        for(int i = 0 ; i<empIds.size(); i++){
-            System.out.println("ID = "+empIds.get(i)+" Name = "+empNames.get(i)+" Salary = "+empsalarys.get(i));
-        }
-    }
+//             empIds.add(empId);
+//             empsalarys.add(empSalary);
+//             empNames.add(empname);
+//         }
+//     }
+//     void display(){
+//         for(int i = 0 ; i<empIds.size(); i++){
+//             System.out.println("ID = "+empIds.get(i)+" Name = "+empNames.get(i)+" Salary = "+empsalarys.get(i));
+//         }
+//     }
 
-}
-public class Main{
-    public static void main(String args[]){
-        Employee employee = new Employee();
-        employee.empDetails();
-        employee.display();
+// }
+// public class Main{
+//     public static void main(String args[]){
+//         Employee employee = new Employee();
+//         employee.empDetails();
+//         employee.display();
 
-    }
-}
+//     }
+// }
